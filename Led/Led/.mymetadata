@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="GuangyuWeb"
+  id="myeclipse.1489116824813"
+  context-root="/GuangyuWeb"
+  j2ee-spec="6.0"
+  archive="GuangyuWeb.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

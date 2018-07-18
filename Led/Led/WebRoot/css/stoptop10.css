@@ -1,0 +1,96 @@
+#all{
+	width:1250px;
+	height:700px;
+	margin:0 auto;
+	background-color:black;
+    
+}
+#title{
+width:100%;
+height:35px;
+text-align:center;
+vertical-align:middle;
+font-size:41px;
+font-weight:bolder;
+}
+#table_title{
+	width:1249px;
+	height:58px;	
+	margin:0 auto;
+}
+#right_table{
+	width:100%;
+	height:628px;
+	float:right;
+}
+div{
+color:#01FF00
+}
+body {color:green}
+table {
+	<!--border:3px solid #FF3333-->
+	}
+span{
+font-size:41px;
+font-weight:600;
+}
+#shift{
+float:left;
+font-weight:600;
+}
+#time{
+float:right;
+font-size:41px;
+font-weight:bolder;
+}
+
+#center_style{
+width:9px;
+	height:635px;
+	border:solid 0px #f00;	
+	float:left;
+	background:#01FF00
+}
+#bar_style{
+width:100%;
+	height:5px;
+	border:solid 0px #f00;	
+	background:#01FF00
+}
+.second_title{
+width:100%;
+	height:30px;
+	border:solid 0px #f00;	
+	text-align:center;
+	font-size:41px;
+	font-weight:bolder;
+vertical-align:middle;
+}
+.one{
+	width:5%;
+	hight:20%;
+}
+.two{
+	width:10%;
+	hight:20%;
+}
+.three{
+	width:15%;
+	hight:20%;
+}
+.four{
+	width:10%;
+	hight:20%;
+}
+.five{
+	width:60%;
+	hight:20%;
+}
+table{
+	width:100%;
+	hight:1000px;
+	color:#01FF00;
+	font-size:23px;
+	font-size:41px;
+	font-weight:bolder;
+}

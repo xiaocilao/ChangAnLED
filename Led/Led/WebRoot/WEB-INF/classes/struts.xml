@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="machine" extends="json-default" namespace="/" ><!-- machine是随便起的 -->
+	<!-- *_* -->
+	
+	 <!-- action是包名 ,*_Machine对应JSP页面,*和{1}搭配是通配符-->
+		<!-- {2}.jsp -->
+		<action name="led" class="action.JspAction">
+			<result>led_1.jsp</result>
+			<result name="s">led.jsp</result>
+		</action>
+		<action name="index" class="action.IndexAction">
+			<result>/ueditor1_4_3/index.html</result>
+		</action>
+		<action name="top10" class="action.Top10Action">
+			<result name="Top10">Top10.jsp</result>
+		</action>
+		<action name="stoptop10" class="action.StopTop10Action">
+			<result name="StopTop10">StopTop10.jsp</result>
+		</action>
+	</package>
+</struts>    
